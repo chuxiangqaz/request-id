@@ -1,6 +1,6 @@
 <?php
 
-namespace XRequestID\Guzzle;
+namespace XrequestID\Guzzle;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Handler\CurlHandler;

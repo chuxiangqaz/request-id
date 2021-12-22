@@ -1,6 +1,6 @@
 <?php
 
-namespace XRequestID;
+namespace XRequestID\Logging;
 
 use Illuminate\Http\Request;
 use Illuminate\Queue\Events\JobProcessing;

@@ -16,13 +16,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $xRequestID = Str::random(32);
-        if (!$this->app->runningInConsole()) {
-            /** @var Request $request */
-            $request = $this->app->get(Request::class);
-            !empty($httpID = $request->header(Conf::HEAD_ID)) && $xRequestID = $httpID;
-        }
-
+        $xRequestID = $_SERVER['HTTP_X_REQUEST_ID'] ?? Str::random(32);
         $this->app->singleton(Conf::APP_ID, function ($app) use ($xRequestID) {
             return $xRequestID;
         });

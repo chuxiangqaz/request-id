@@ -1,8 +1,9 @@
 <?php
 
-namespace XRequestID;
+namespace XRequestID\Logging;
 
 use Psr\Log\LoggerInterface;
+use XRequestID\Conf;
 
 class Log implements LoggerInterface
 {
