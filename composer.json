@@ -1,6 +1,7 @@
 {
   "name": "chuxiangqaz/x-request-id",
   "description": "对 lumen/laravel 项目 x-request-id 的包",
+  "license": "MIT",
   "authors": [
     {
       "name": "chuxiang",
