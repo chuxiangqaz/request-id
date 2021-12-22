@@ -1,6 +1,6 @@
 {
   "name": "chuxiangqaz/x-request-id",
-  "description": "关于 requestID 的设置",
+  "description": "对 lumen/laravel 项目 x-request-id 的包",
   "authors": [
     {
       "name": "chuxiang",
