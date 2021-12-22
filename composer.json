@@ -1,0 +1,15 @@
+{
+  "name": "chuxiangqaz/request-id",
+  "description": "关于 requestID 的设置",
+  "authors": [
+    {
+      "name": "chuxiang",
+      "email": "chuxiangcoding@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "XrequestID\\": "src/"
+    }
+  }
+}
